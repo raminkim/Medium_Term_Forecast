@@ -11,6 +11,12 @@
 <img src=https://github.com/user-attachments/assets/aaef816c-d8fb-47a7-86bb-d7a0c12d966c width="500" height="400"/>
 <img src=https://github.com/user-attachments/assets/5cdf35e1-f485-4942-94f8-3e324850727c width="500" height="400"/>
 
+## 앱 사용 전 세팅
+"WeatherFragment.java"파일에서 createURL function에 사용자 자신이 발급 받은 키를 입력하면 된다.
+즉, createURL function의 "Enter your API key here" 대신 발급 받은 키를 채워넣으면 된다.
+이때, 발급 받은 키는 아래 출처에 있는 API 링크인 "기상청_중기예보 조회서비스"를 활용신청해 발급 받은 키를 사용한다.
+
+
 ## 앱 사용 설명
 ① 지역을 직접 입력할 수도 있지만, 잘못된 지역 입력 시, 토스트창을 띄우며 지운다.<br>
 ‘지역 선택‘ 버튼 클릭 시 가능한 지역들의 리스트 뷰가 나온다.<br>
