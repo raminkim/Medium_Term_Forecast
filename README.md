@@ -8,7 +8,7 @@
 입력 날짜 기준 8일 후부터 10일후까지는 당일의 강수확률과 날씨를 제공합니다.
 
 날씨에 맞춰 이미지 또한 제공합니다. Ex) 맑음, 구름 많음, 흐림, 눈, 비, 소나기 등
-<img src=https://github.com/user-attachments/assets/aaef816c-d8fb-47a7-86bb-d7a0c12d966c width="450" height="400"/>
+<img src=https://github.com/user-attachments/assets/aaef816c-d8fb-47a7-86bb-d7a0c12d966c width="500" height="400"/>
 <img src=https://github.com/user-attachments/assets/5cdf35e1-f485-4942-94f8-3e324850727c width="500" height="400"/>
 
 ## 앱 사용 설명
