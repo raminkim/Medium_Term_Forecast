@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/copyrightText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="날씨 아이콘 출처: 공공누리 날씨 아이콘"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/copyrghtText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.kma.go.kr/weather/icon_info.html"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/weathercopyright"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/img_opentype04" />
+
+            <TextView
+                android:id="@+id/copyrightText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="사용 API 출처: 기상청_중기예보 조회서비스"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/APIcopyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cc" />
+
+            <ImageView
+                android:id="@+id/APIcopyright2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_opentype01" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
